@@ -53,6 +53,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'kaminari'
+##kaminariにbootstrapを反映するために以下を忘れずに!
+#rails g kaminari:views bootstrap3
+
 
 group :production do
   gem 'pg'
